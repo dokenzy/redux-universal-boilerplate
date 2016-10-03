@@ -70,14 +70,14 @@ module.exports = {
         'svg'
       ]
     },
-    fonts: {
+    /*fonts: {
       extensions: [
         'woff',
         'woff2',
         'ttf',
         'eot'
       ]
-    },
+    },*/
     stylesCss: {
       extensions: [
         'css',

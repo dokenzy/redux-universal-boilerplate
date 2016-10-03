@@ -21,8 +21,8 @@ var plugins = [
 
 var loaders = [
   {
-    test: webpackIsomorphicToolsPlugin.regular_expression('fonts'),
-    loader: 'file?name=fonts/[hash].[ext]'
+    test: /\.(eot|woff|woff2|ttf|svg)(\?\S*)?$/,
+    loader: 'url?limit=100000&name=[name].[ext]'
   }
 ];
 
